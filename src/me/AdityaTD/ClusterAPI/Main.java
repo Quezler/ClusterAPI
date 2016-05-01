@@ -36,6 +36,6 @@ public class Main extends JavaPlugin implements Listener
   }
   
   public void ConsoleMSG(String msg){
-    getLogger().info(msg);
+    getServer().getConsoleSender().sendMessage( "["+ getPlugin(Main.class).getName() +"] " + msg);
   }
 }
