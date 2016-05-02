@@ -23,14 +23,14 @@ public class Main extends JavaPlugin implements Listener
     }
     
     ConsoleMSG(ChatColor.LIGHT_PURPLE + "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-    ConsoleMSG(ChatColor.GOLD + "ClusterAPI enabled. | Version: 0.1");
+    ConsoleMSG(ChatColor.GOLD + "ClusterAPI" + ChatColor.GREEN + " enabled. " + ChatColor.GOLD + "| Version: 0.1");
     ConsoleMSG(ChatColor.GOLD + "By: AdityaTD | YouTube: YouTube.com/c/AdityaTD");
     ConsoleMSG(ChatColor.LIGHT_PURPLE + "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
   }
   
   public void onDisable(){
     ConsoleMSG(ChatColor.LIGHT_PURPLE + "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-    ConsoleMSG(ChatColor.GOLD + "ClusterAPI" + ChatColor.RED + "disabled. " + ChatColor.GOLD + "| Version: 0.1");
+    ConsoleMSG(ChatColor.GOLD + "ClusterAPI" + ChatColor.RED + " disabled. " + ChatColor.GOLD + "| Version: 0.1");
     ConsoleMSG(ChatColor.GOLD + "By: AdityaTD | YouTube: YouTube.com/c/AdityaTD");
     ConsoleMSG(ChatColor.LIGHT_PURPLE + "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
   }
